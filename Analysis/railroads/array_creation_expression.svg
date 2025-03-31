@@ -1,0 +1,49 @@
+<svg class="railroad-diagram" height="62" viewBox="0 0 1849.5 62" width="1849.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m10 -20v20m-10 -10h20" /></g><path d="M40 31h10" /><g>
+<path d="M50 31h0.0" /><path d="M1799.5 31h0.0" /><g class="non-terminal ">
+<path d="M50.0 31h0.0" /><path d="M129.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="79.5" x="50" y="20"></rect><text x="89.75" y="35">>(&apos;new&apos;</text></g><path d="M129.5 31h10" /><path d="M139.5 31h10" /><g class="non-terminal ">
+<path d="M149.5 31h0.0" /><path d="M271.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="122" x="149.5" y="20"></rect><text x="210.5" y="35">_annotation*</text></g><path d="M271.5 31h10" /><path d="M281.5 31h10" /><g class="non-terminal ">
+<path d="M291.5 31h0.0" /><path d="M430.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="139" x="291.5" y="20"></rect><text x="361" y="35">(_simple_type:</text></g><path d="M430.5 31h10" /><path d="M440.5 31h10" /><g class="non-terminal ">
+<path d="M450.5 31h0.0" /><path d="M513.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="62.5" x="450.5" y="20"></rect><text x="481.75" y="35">type)</text></g><path d="M513.0 31h10" /><path d="M523.0 31h10" /><g class="non-terminal ">
+<path d="M533.0 31h0.0" /><path d="M723.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="190" x="533" y="20"></rect><text x="628" y="35">(((dimensions_expr+:</text></g><path d="M723.0 31h10" /><path d="M733.0 31h10" /><g class="non-terminal ">
+<path d="M743.0 31h0.0" /><path d="M856.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="113.5" x="743" y="20"></rect><text x="799.75" y="35">dimensions)</text></g><path d="M856.5 31h10" /><path d="M866.5 31h10" /><g class="non-terminal ">
+<path d="M876.5 31h0.0" /><path d="M1007.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="130.5" x="876.5" y="20"></rect><text x="941.75" y="35">(dimensions?:</text></g><path d="M1007.0 31h10" /><path d="M1017.0 31h10" /><g class="non-terminal ">
+<path d="M1027.0 31h0.0" /><path d="M1149.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="122" x="1027" y="20"></rect><text x="1088" y="35">dimensions))</text></g><path d="M1149.0 31h10" /><path d="M1159.0 31h10" /><g class="non-terminal ">
+<path d="M1169.0 31h0.0" /><path d="M1197.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="28.5" x="1169" y="20"></rect><text x="1183.25" y="35">|</text></g><path d="M1197.5 31h10" /><path d="M1207.5 31h10" /><g class="non-terminal ">
+<path d="M1217.5 31h0.0" /><path d="M1348.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="130.5" x="1217.5" y="20"></rect><text x="1282.75" y="35">((dimensions:</text></g><path d="M1348.0 31h10" /><path d="M1358.0 31h10" /><g class="non-terminal ">
+<path d="M1368.0 31h0.0" /><path d="M1481.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="113.5" x="1368" y="20"></rect><text x="1424.75" y="35">dimensions)</text></g><path d="M1481.5 31h10" /><path d="M1491.5 31h10" /><g class="non-terminal ">
+<path d="M1501.5 31h0.0" /><path d="M1683.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="181.5" x="1501.5" y="20"></rect><text x="1592.25" y="35">(array_initializer:</text></g><path d="M1683.0 31h10" /><path d="M1693.0 31h10" /><g class="non-terminal ">
+<path d="M1703.0 31h0.0" /><path d="M1799.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="96.5" x="1703" y="20"></rect><text x="1751.25" y="35">value))))</text></g></g><path d="M1799.5 31h10" /><path d="M 1809.5 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g><style>/* <![CDATA[ */
+	svg.railroad-diagram {
+		background-color:hsl(30,20%,95%);
+	}
+	svg.railroad-diagram path {
+		stroke-width:3;
+		stroke:black;
+		fill:rgba(0,0,0,0);
+	}
+	svg.railroad-diagram text {
+		font:bold 14px monospace;
+		text-anchor:middle;
+	}
+	svg.railroad-diagram text.label{
+		text-anchor:start;
+	}
+	svg.railroad-diagram text.comment{
+		font:italic 12px monospace;
+	}
+	svg.railroad-diagram rect{
+		stroke-width:3;
+		stroke:black;
+		fill:hsl(120,100%,90%);
+	}
+	svg.railroad-diagram rect.group-box {
+		stroke: gray;
+		stroke-dasharray: 10 5;
+		fill: none;
+	}
+
+/* ]]> */
+</style></svg>

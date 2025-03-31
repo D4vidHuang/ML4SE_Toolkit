@@ -1,0 +1,25 @@
+line,rule,error
+4,SourceFile       ::= stat*,
+5,"chunk            ::= (stat "";""?)+ (laststat "";""?)?",
+7,"stat             ::= varlist ""="" explist |",'NoneType' object has no attribute 'lower'
+18,"laststat         ::= ""return"" explist? | ""break""",'NoneType' object has no attribute 'lower'
+19,"funcname         ::= Name (""."" Name)* ("":"" Name)?",'NoneType' object has no attribute 'lower'
+20,"varlist          ::= ""var"" ("","" var)*",'Terminal' object is not subscriptable
+21,"var              ::= Name | prefixexp ""("" exp "")?"" | prefixexp ""."" Name",'NoneType' object has no attribute 'lower'
+22,"namelist         ::= Name ("","" Name)*",'NoneType' object has no attribute 'lower'
+23,"explist          ::= (exp "","")* exp",
+24,"exp              ::= ""nil"" | ""false"" | ""true"" | Number | String | ""..."" | function |",'NoneType' object has no attribute 'lower'
+26,"prefixexp        ::= ""var"" | functioncall | ""("" exp "")""",'NoneType' object has no attribute 'lower'
+27,"functioncall     ::= prefixexp args | prefixexp "":"" Name args",'NoneType' object has no attribute 'lower'
+28,"args             ::= ""("" (explist)? "")"" | tableconstructor | String",'NoneType' object has no attribute 'lower'
+29,"function         ::= ""function"" funcbody",'Terminal' object is not subscriptable
+30,"funcbody         ::= ""("" (parlist)? "")"" block ""end""",'Terminal' object is not subscriptable
+32,"tableconstructor ::= ""{"" (fieldlist)? ""}""",'NoneType' object has no attribute 'lower'
+33,fieldlist        ::= field (fieldsep field)* (fieldsep)?,
+34,"field            ::= ""("" exp "")?"" ""="" exp | Name ""="" exp | exp",'NoneType' object has no attribute 'lower'
+35,"fieldsep         ::= "","" | "";""",'Terminal' object is not subscriptable
+36,"binop            ::= ""+"" | ""-"" | ""*"" | ""/"" | ""^"" | ""%"" | "".."" |",'NoneType' object has no attribute 'lower'
+39,"unop             ::= ""-"" | ""not"" | ""#""",'Terminal' object is not subscriptable
+40,Name             ::= [a-zA-Z_0-9]+,'Terminal' object is not subscriptable
+41,Number           ::= [0-9]+,'Terminal' object is not subscriptable
+42,"String           ::= '""' [^""]* '""' | ""'"" [^""]* ""'""",'NoneType' object has no attribute 'lower'

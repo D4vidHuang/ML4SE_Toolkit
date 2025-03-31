@@ -1,0 +1,21 @@
+line,rule,error
+7,"stat             ::= varlist ""="" explist |",'NoneType' object has no attribute 'lower'
+18,"laststat         ::= ""return"" explist? | ""break""",'NoneType' object has no attribute 'lower'
+19,"funcname         ::= Name (""."" Name)* ("":"" Name)?",'NoneType' object has no attribute 'lower'
+20,"varlist          ::= ""var"" ("","" var)*","string indices must be integers, not 'str'"
+21,"var              ::= Name | prefixexp ""("" exp "")?"" | prefixexp ""."" Name",'NoneType' object has no attribute 'lower'
+22,"namelist         ::= Name ("","" Name)*",'NoneType' object has no attribute 'lower'
+24,"exp              ::= ""nil"" | ""false"" | ""true"" | Number | String | ""..."" | function |",'NoneType' object has no attribute 'lower'
+26,"prefixexp        ::= ""var"" | functioncall | ""("" exp "")""",'NoneType' object has no attribute 'lower'
+27,"functioncall     ::= prefixexp args | prefixexp "":"" Name args",'NoneType' object has no attribute 'lower'
+28,"args             ::= ""("" (explist)? "")"" | tableconstructor | String",'NoneType' object has no attribute 'lower'
+29,"function         ::= ""function"" funcbody","string indices must be integers, not 'str'"
+30,"funcbody         ::= ""("" (parlist)? "")"" block ""end""","string indices must be integers, not 'str'"
+32,"tableconstructor ::= ""{"" (fieldlist)? ""}""",'NoneType' object has no attribute 'lower'
+34,"field            ::= ""("" exp "")?"" ""="" exp | Name ""="" exp | exp",'NoneType' object has no attribute 'lower'
+35,"fieldsep         ::= "","" | "";""","string indices must be integers, not 'str'"
+36,"binop            ::= ""+"" | ""-"" | ""*"" | ""/"" | ""^"" | ""%"" | "".."" |",'NoneType' object has no attribute 'lower'
+39,"unop             ::= ""-"" | ""not"" | ""#""","string indices must be integers, not 'str'"
+40,Name             ::= [a-zA-Z_0-9]+,"string indices must be integers, not 'str'"
+41,Number           ::= [0-9]+,"string indices must be integers, not 'str'"
+42,"String           ::= '""' [^""]* '""' | ""'"" [^""]* ""'""",'NoneType' object has no attribute 'lower'

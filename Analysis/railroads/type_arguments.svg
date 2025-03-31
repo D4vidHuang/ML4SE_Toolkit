@@ -1,0 +1,45 @@
+<svg class="railroad-diagram" height="62" viewBox="0 0 805.5 62" width="805.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m10 -20v20m-10 -10h20" /></g><path d="M40 31h10" /><g>
+<path d="M50 31h0.0" /><path d="M755.5 31h0.0" /><g class="terminal ">
+<path d="M50.0 31h0.0" /><path d="M78.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="28.5" x="50" y="20"></rect><text x="64.25" y="35">&lt;</text></g><path d="M78.5 31h10" /><path d="M88.5 31h10" /><g class="non-terminal ">
+<path d="M98.5 31h0.0" /><path d="M178.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="79.5" x="98.5" y="20"></rect><text x="138.25" y="35">((_type</text></g><path d="M178.0 31h10" /><path d="M188.0 31h10" /><g class="non-terminal ">
+<path d="M198.0 31h0.0" /><path d="M226.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="28.5" x="198" y="20"></rect><text x="212.25" y="35">|</text></g><path d="M226.5 31h10" /><path d="M236.5 31h10" /><g class="non-terminal ">
+<path d="M246.5 31h0.0" /><path d="M343.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="96.5" x="246.5" y="20"></rect><text x="294.75" y="35">wildcard)</text></g><path d="M343.0 31h10" /><path d="M353.0 31h10" /><g class="non-terminal ">
+<path d="M363.0 31h0.0" /><path d="M417.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="54" x="363" y="20"></rect><text x="390" y="35">(&apos;,&apos;</text></g><path d="M417.0 31h10" /><path d="M427.0 31h10" /><g class="non-terminal ">
+<path d="M437.0 31h0.0" /><path d="M508.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="71" x="437" y="20"></rect><text x="472.5" y="35">(_type</text></g><path d="M508.0 31h10" /><path d="M518.0 31h10" /><g class="non-terminal ">
+<path d="M528.0 31h0.0" /><path d="M556.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="28.5" x="528" y="20"></rect><text x="542.25" y="35">|</text></g><path d="M556.5 31h10" /><path d="M566.5 31h10" /><g class="non-terminal ">
+<path d="M576.5 31h0.0" /><path d="M707.0 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="130.5" x="576.5" y="20"></rect><text x="641.75" y="35">wildcard))*)?</text></g><path d="M707.0 31h10" /><path d="M717.0 31h10" /><g class="terminal ">
+<path d="M727.0 31h0.0" /><path d="M755.5 31h0.0" /><rect fill="rgb(0, 255, 0)" height="22" width="28.5" x="727" y="20"></rect><text x="741.25" y="35">></text></g></g><path d="M755.5 31h10" /><path d="M 765.5 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g><style>/* <![CDATA[ */
+	svg.railroad-diagram {
+		background-color:hsl(30,20%,95%);
+	}
+	svg.railroad-diagram path {
+		stroke-width:3;
+		stroke:black;
+		fill:rgba(0,0,0,0);
+	}
+	svg.railroad-diagram text {
+		font:bold 14px monospace;
+		text-anchor:middle;
+	}
+	svg.railroad-diagram text.label{
+		text-anchor:start;
+	}
+	svg.railroad-diagram text.comment{
+		font:italic 12px monospace;
+	}
+	svg.railroad-diagram rect{
+		stroke-width:3;
+		stroke:black;
+		fill:hsl(120,100%,90%);
+	}
+	svg.railroad-diagram rect.group-box {
+		stroke: gray;
+		stroke-dasharray: 10 5;
+		fill: none;
+	}
+
+/* ]]> */
+</style></svg>
